@@ -1,0 +1,28 @@
+html {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0;
+	height: 100%;
+	background-color: #333333;
+}
+
+#errorText {
+	display: flex;
+	margin: auto;
+	max-width: 30vw;
+	padding: 2%;
+	line-height: 1.5;
+	font-family: 'Quicksand', sans-serif;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+}
+#errorText p {
+	color: white;
+	margin: auto;
+}
